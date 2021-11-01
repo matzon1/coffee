@@ -1,0 +1,151 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap’);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 50%;
+  padding: 60px 0px;
+}
+
+/* MENU: NAVBAR/HEADER */ 
+
+
+
+nav a:hover{
+  background-color: rgba(213, 151, 65, 0.3);
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  background-color: #222222;
+}
+
+
+nav ul li {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 25%;
+}
+
+nav ul li a {
+  color: #eeeeee;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 100;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTION MAIN IMAGE */
+
+#section-main-image {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1463797221720-6b07e6426c24?ixid=MnwxMjA");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.h1-img {
+  color: white;
+  opacity: 0.5 (rgba(255, 255, 255, .5));
+  font-size: 120px;
+}
+
+.h2-img{
+  padding-top: 10px;
+  color: white;
+  text-shadow: 2px 2px 5px #000;;
+  
+}
+
+#section-main-image h1 {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+/* SECTION COFFEE */
+
+#section-coffee {
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+#section-coffee h2{
+  margin-top: 40px 0px 20px 0px;
+}
+#section-coffee p{
+  text-align: justify;
+  font-weight: bold;
+}
+
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.product {
+  padding: 0 15px;
+}
+
+.product img {
+  width: 190px;
+}
+
+/* FOOTER CONTACT */
+
+#footer-contact {
+  background-color: #58462c;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-contact .contact-data {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contact-form form {
+  margin-left: 50px;
+  text-align: right;
+}
+
+.contact-form form .form-control {
+  padding: 10px 0;
+}
+
+.contact-form form .form-control label {
+  margin-right: 15px;
+}
+
+.contact-form form button {
+  margin-top: 15px;
+  color: #58462c;
+  padding: 2px 30px;
+}
